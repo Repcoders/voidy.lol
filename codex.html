@@ -18,6 +18,16 @@
       justify-content: center;
       align-items: center;
       height: 100vh;
+      background-color: #222;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+    #logo {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 20px;
     }
 
     #loading-spinner {
@@ -36,27 +46,40 @@
     }
 
     #loading-text {
-      font-size: 24px;
+      font-size: 28px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      text-transform: uppercase;
     }
 
     @media (max-width: 600px) {
+      #loading-container {
+        padding: 10px;
+      }
+
+      #logo {
+        width: 60px;
+        height: 60px;
+      }
+
       #loading-spinner {
         width: 30px;
         height: 30px;
       }
 
       #loading-text {
-        font-size: 18px;
+        font-size: 20px;
       }
     }
   </style>
 </head>
 <body>
   <div id="loading-container">
+    <img id="logo" src="path/to/your-logo.png" alt="Logo">
     <div id="loading-spinner"></div>
     <div id="loading-text">
       <h1>Installing Codex...</h1>
-      <p>Please wait</p>
+      <p>Please wait, this may take a moment.</p>
     </div>
   </div>
 </body>
