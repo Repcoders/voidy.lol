@@ -24,6 +24,7 @@
             display: inline-block;
             margin: 0 3px;
             animation: stretchdelay 1.2s infinite ease-in-out;
+                border-radius: 10px;
         }
 
         .spinner .rect2 {
