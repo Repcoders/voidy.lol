@@ -170,7 +170,7 @@ body {
 
 .box {
   border-radius: 30px;
-  width: clamp(125px, 40%, 500px);
+  width: clamp(100px, 40%, 500px);
   height: auto;
   margin: 30px auto;
   padding: 20px 30px;
