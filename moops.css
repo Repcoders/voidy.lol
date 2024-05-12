@@ -80,7 +80,7 @@ body {
 
 .textbox {
   background-color: rgba(34, 34, 34, 0.5);
-  border: none;
+  border: 2px 0.7 rgba(169, 169, 169, 0.4);
   color: #fff;
   padding: 10px;
   margin: 20px 0;
