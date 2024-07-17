@@ -29,7 +29,7 @@
         <key>metadata</key>
         <dict>
           <key>bundle-identifier</key>
-          <string>ROBLOX.APPLEWARE.IPA.BUNDLEID</string>
+          <string>com.tableud.AppleWare</string>
           <key>bundle-version</key>
           <string>2.633.513</string>
           <key>kind</key>
